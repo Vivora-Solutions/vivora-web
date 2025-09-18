@@ -40,11 +40,11 @@ const Footer: FC = () => {
               </Link>
             </div>
             <h3 className="text-white text-24 font-medium sm:mt-20 mt-12">
-              2025 Copright | Crypgo
+              © 2025 Software Solutions by Vivora
             </h3>
-            <h3 className="text-white text-24 font-medium sm:mt-20 mt-12">
-              Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
-            </h3>
+            <p className="text-muted text-17 mt-4">
+              Based in Sri Lanka | University of Moratuwa Alumni
+            </p>
           </div>
           <div className="lg:col-span-2 md:col-span-3 col-span-6">
             <h4 className="text-white mb-4 font-medium text-24">Links</h4>
@@ -77,25 +77,21 @@ const Footer: FC = () => {
             </ul>
           </div>
           <div className="lg:col-span-4 md:col-span-4 col-span-6">
-            <h3 className="text-white text-24 font-medium">Subscribe</h3>
+            <h3 className="text-white text-24 font-medium">Contact Us</h3>
             <p className="text-muted text-opacity-60 text-18 mt-5">
-              Subscribe to get the latest
-              <br /> news form us
+              Ready to start your next
+              <br /> software project?
             </p>
-            <div className="relative lg:w-80%">
-              <input
-                type="email"
-                name="mail"
-                id="mail"
-                placeholder="Enter Email"
-                className="bg-transparent border border-dark_border border-opacity-60 py-4 text-white rounded-lg w-full mt-6 px-6"
-              />
-              <Icon
-                icon="tabler:send"
-                width="24"
-                height="24"
-                className="text-primary absolute right-7 bottom-4"
-              />
+            <div className="mt-6">
+              <p className="text-white text-17 mb-3">
+                📧 info@vivora.lk
+              </p>
+              <p className="text-white text-17 mb-3">
+                📱 +94 xx xxx xxxx
+              </p>
+              <p className="text-white text-17">
+                🏢 Colombo, Sri Lanka
+              </p>
             </div>
           </div>
         </div>

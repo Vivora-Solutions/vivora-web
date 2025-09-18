@@ -6,7 +6,7 @@ import { getImagePrefix } from "@/utils/utils";
 
 const Portfolio = () => {
   return (
-    <section className="md:pt-48 sm:pt-28 pt-12" id="portfolio">
+    <section className="md:pt-48 sm:pt-28 pt-12" id="projects">
       <div className="container mx-auto lg:max-w-screen-xl px-4 sm:px-6">
         <div className="grid lg:grid-cols-2 items-center gap-20">
           <motion.div
@@ -17,7 +17,7 @@ const Portfolio = () => {
           >
             <Image
               src= {`${getImagePrefix()}images/portfolio/img-portfolio.png`}
-              alt="Crypto Portfolio"
+              alt="Software Portfolio"
               width={780}
               height={700}
             />
@@ -29,15 +29,14 @@ const Portfolio = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="sm:text-28 text-18 text-muted mb-4">
-              Cryptocurrency <span className="text-primary">Portfolio</span>
+              Our <span className="text-primary">Services</span>
             </p>
             <h2 className="text-white sm:text-40 text-30 mb-4 font-medium">
-              Create your crypto portfolio today with Cryp
-              <span className="text-primary">Go</span>!
+              Comprehensive software solutions for your business needs
             </h2>
             <p className="text-muted text-opacity-60 text-18">
-              Coinbase has a variety of features that make it the best
-              <br className="md:block hidden" /> place to start trading.
+              From University of Moratuwa alumni team with expertise in
+              <br className="md:block hidden" /> modern web technologies and software architecture.
             </p>
 
             <table className="w-full sm:w-[80%]">

@@ -15,7 +15,7 @@ const TimeLine = () => {
     transition: { duration: 0.6, delay: 0.4 },
   };
   return (
-    <section className="md:pt-40 pt-9" id="development">
+    <section className="md:pt-40 pt-9" id="process">
       <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md lg:px-16 px-4">
         <div className="text-center">
           <motion.div
@@ -24,11 +24,11 @@ const TimeLine = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="text-muted sm:text-28 text-18 mb-9">
-              Development <span className="text-primary">timeline</span>
+              Development <span className="text-primary">Process</span>
             </p>
             <h2 className="text-white sm:text-40 text-30 font-medium lg:w-80% mx-auto mb-20">
-              We can enter at any point or help you all the way through the
-              development cycle.
+              Our structured approach ensures quality delivery from
+              conception to deployment and beyond.
             </h2>
           </motion.div>
           <motion.div

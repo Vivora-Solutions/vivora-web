@@ -8,17 +8,18 @@ import Upgrade from "@/components/Home/upgrade";
 import Perks from "@/components/Home/perks";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "CrypGo",
+  title: "Software Solutions by Vivora - Leading Tech Company in Sri Lanka",
+  description: "Premier software development company from University of Moratuwa, Sri Lanka. Specializing in custom software solutions, web development, and digital transformation.",
 };
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Work />
-      <TimeLine />
       <Platform />
+      <TimeLine />
       <Portfolio />
+      <Work />
       <Upgrade />
       <Perks />
     </main>

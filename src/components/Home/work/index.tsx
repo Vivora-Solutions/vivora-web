@@ -23,20 +23,20 @@ const Work = () => {
   const services = [
     {
       icon: "/images/icons/icon-consulting.svg",
-      text: "Blockchain Consulting",
+      text: "Software Consulting",
     },
     {
       icon: "/images/icons/icon-blockchain.svg",
-      text: "Blockchain Solutions",
+      text: "Web Development",
     },
     {
       icon: "/images/icons/icon-Services.svg",
-      text: "Custom Development",
+      text: "Custom Solutions",
     },
   ];
 
   return (
-    <section className="md:pt-28" id="work">
+    <section className="md:pt-28" id="about">
       <div className="container mx-auto lg:max-w-screen-xl px-4">
         <div ref={ref} className="grid grid-cols-12 items-center">
           <motion.div
@@ -44,10 +44,10 @@ const Work = () => {
             className="lg:col-span-7 col-span-12"
           >
             <p className="sm:text-28 text-18 text-white">
-              Work with <span className="text-primary">us</span>
+              About <span className="text-primary">Vivora</span>
             </p>
             <h2 className="sm:text-40 text-30 text-white lg:w-full md:w-70% font-medium">
-              Successfully launch your blockchain project.
+              University of Moratuwa Alumni delivering excellence in software development.
             </h2>
             <div className="grid md:grid-cols-2 gap-7 mt-11">
               {services.map((service, index) => (
