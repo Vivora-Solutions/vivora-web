@@ -20,7 +20,7 @@ export const pricedeta: {
 }[] = [
   {
     title: "Team Members",
-    short: "UoM Alumni",
+    short: "Computer Science And Engineering students of University of Moratuwa",
     icon: "/images/icons/icon-Services.svg",
     background: "bg-warning bg-opacity-20",
     price: "10+",

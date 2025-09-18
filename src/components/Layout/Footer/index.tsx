@@ -10,8 +10,9 @@ const Footer: FC = () => {
   return (
     <footer className="pt-16 bg-darkmode">
       <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-12 lg:gap-20 md:gap-6 sm:gap-12 gap-6  pb-16">
-          <div className="lg:col-span-4 md:col-span-6 col-span-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-16">
+          {/* Column 1 - Company Info */}
+          <div className="col-span-1">
             <Logo />
             <div className="flex gap-6 items-center mt-8">
               <Link href="#" className="group">
@@ -39,15 +40,13 @@ const Footer: FC = () => {
                 />
               </Link>
             </div>
-            <h3 className="text-white text-24 font-medium sm:mt-20 mt-12">
-              © 2025 Software Solutions by Vivora
-            </h3>
-            <p className="text-muted text-17 mt-4">
-              Based in Sri Lanka | University of Moratuwa Alumni
-            </p>
+           
+  
           </div>
-          <div className="lg:col-span-2 md:col-span-3 col-span-6">
-            <h4 className="text-white mb-4 font-medium text-24">Links</h4>
+
+          {/* Column 2 - Navigation Links */}
+          <div className="col-span-1">
+            <h4 className="text-white mb-4 font-medium text-24">Quick Links</h4>
             <ul>
               {headerData.map((item, index) => (
                 <li key={index} className="pb-4">
@@ -61,22 +60,9 @@ const Footer: FC = () => {
               ))}
             </ul>
           </div>
-          <div className="lg:col-span-2 md:col-span-3 col-span-6">
-            <h4 className="text-white mb-4 font-medium text-24">Information</h4>
-            <ul>
-              {footerlabels.map((item, index) => (
-                <li key={index} className="pb-4">
-                  <Link
-                    href={item.herf}
-                    className="text-white hover:text-primary text-17"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="lg:col-span-4 md:col-span-4 col-span-6">
+
+          {/* Column 3 - Contact Info */}
+          <div className="col-span-1">
             <h3 className="text-white text-24 font-medium">Contact Us</h3>
             <p className="text-muted text-opacity-60 text-18 mt-5">
               Ready to start your next
@@ -84,18 +70,23 @@ const Footer: FC = () => {
             </p>
             <div className="mt-6">
               <p className="text-white text-17 mb-3">
-                📧 info@vivora.lk
+                📧 contact@salondora.com
               </p>
               <p className="text-white text-17 mb-3">
-                📱 +94 xx xxx xxxx
+                📱 +94 70 244 3978
               </p>
               <p className="text-white text-17">
-                🏢 Colombo, Sri Lanka
+                🏢 No 251/A, Molpe Road, Katubedda, Moratuwa, Sri Lanka
               </p>
             </div>
           </div>
+          
         </div>
+         <p className="text-white text-24 justify-center flex  font-medium sm:mt-20 mt-12">
+              © 2025 Software Solutions by Vivora
+            </p>
       </div>
+      
     </footer>
   );
 };

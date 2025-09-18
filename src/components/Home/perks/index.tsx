@@ -45,13 +45,13 @@ const Perks = () => {
             <p className="text-muted text-opacity-60 text-18 mb-10">
               Contact us today to discuss your project requirements.
               <br />
-              Email: <span className="text-primary">info@vivora.lk</span>
+              Email: <span className="text-primary">contact@salondora.com</span>
               <br />
-              Phone: <span className="text-primary">+94 xx xxx xxxx</span>
+              Phone: <span className="text-primary">+94 76 678 7578</span>
             </p>
             <div className="flex justify-center gap-6">
               <a 
-                href="mailto:info@vivora.lk" 
+                href="mailto:contact@salondora.com" 
                 className="bg-primary text-darkmode px-8 py-3 rounded-lg text-18 font-medium hover:bg-transparent hover:text-primary border border-primary transition-all duration-300"
               >
                 Send Email

@@ -109,7 +109,7 @@ const Header: React.FC = () => {
                 <path d="M16.6111 15.855C17.591 15.1394 18.3151 14.1979 18.7723 13.1623C16.4824 13.4065 14.1342 12.4631 12.6795 10.4711C11.2248 8.47905 11.0409 5.95516 11.9705 3.84818C10.8449 3.9685 9.72768 4.37162 8.74781 5.08719C5.7759 7.25747 5.12529 11.4308 7.29558 14.4028C9.46586 17.3747 13.6392 18.0253 16.6111 15.855Z" />
               </svg>
             </button> */}
-            <Link
+            {/* <Link
               href="#"
               className="hidden lg:block bg-transparent text-primary border hover:bg-primary border-primary hover:text-darkmode px-4 py-2 rounded-lg"
               onClick={() => {
@@ -117,7 +117,7 @@ const Header: React.FC = () => {
               }}
             >
               Sign In
-            </Link>
+            </Link> */}
             {isSignInOpen && (
               <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
                 <div
@@ -138,6 +138,17 @@ const Header: React.FC = () => {
                 </div>
               </div>
             )}
+
+
+                  <Link
+              href="/team"
+              className="hidden lg:block bg-primary text-darkmode hover:bg-transparent hover:text-primary border border-primary px-4 py-2 rounded-lg"
+            
+            >
+              Get started
+            </Link>
+
+{/* 
             <Link
               href="#"
               className="hidden lg:block bg-primary text-darkmode hover:bg-transparent hover:text-primary border border-primary px-4 py-2 rounded-lg"
@@ -146,7 +157,7 @@ const Header: React.FC = () => {
               }}
             >
               Sign Up
-            </Link>
+            </Link> */}
             {isSignUpOpen && (
               <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
                 <div
@@ -199,7 +210,7 @@ const Header: React.FC = () => {
               aria-label="Close menu Modal"
             ></button>
           </div>
-          <nav className="flex flex-col items-start p-4">
+          {/* <nav className="flex flex-col items-start p-4">
             {headerData.map((item, index) => (
               <MobileHeaderLink key={index} item={item} />
             ))}
@@ -225,7 +236,7 @@ const Header: React.FC = () => {
                 Sign Up
               </Link>
             </div>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </header>
