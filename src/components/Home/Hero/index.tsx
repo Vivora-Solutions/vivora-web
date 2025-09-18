@@ -35,9 +35,9 @@ const Hero = () => {
             </h1>
    
             <div className="flex items-center md:justify-start justify-center gap-12 mt-20">
-              <Link href="https://sslondora.com" target="_blank" className="hover:scale-110 duration-300">
+              <Link href="https://salondora.com" target="_blank" className="hover:scale-110 duration-300">
                 <div className="bg-primary rounded-lg px-6 py-3 text-darkmode font-medium">
-                  Visit Sslondora.com
+                  Visit Salondora.com
                 </div>
               </Link>
               <Link href="#contact" className="hover:scale-110 duration-300">

@@ -57,7 +57,7 @@ const Perks = () => {
                 Send Email
               </a>
               <a 
-                href="https://sslondora.com" 
+                href="https://salondora.com" 
                 target="_blank"
                 className="bg-transparent border border-primary text-primary px-8 py-3 rounded-lg text-18 font-medium hover:bg-primary hover:text-darkmode transition-all duration-300"
               >

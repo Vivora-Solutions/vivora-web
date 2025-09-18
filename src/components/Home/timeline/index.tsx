@@ -36,81 +36,89 @@ const TimeLine = () => {
             initial={{ scale: 0.8, opacity: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="md:block hidden relative">
-              <div>
+            <div className="md:block hidden relative min-h-[600px]">
+              <div className="relative z-10">
                 <Image
                   src= {`${getImagePrefix()}images/timeline/img-timeline.png`} 
                   alt="image"
                   width={1220}
                   height={1000}
-                  className="w-80% mx-auto"
+                  className="w-70% mx-auto"
                 />
               </div>
-              <div className="absolute lg::top-40 top-36 lg:left-0 -left-20 w-72 flex items-center gap-6">
-                <div className="text-right">
-                  <h5 className="text-muted text-28 mb-3">Planning</h5>
-                  <p className="text-18 text-muted text-opacity-60">
+              {/* Planning - Top Left */}
+              <div className="absolute top-20 left-4 xl:left-8 w-64 xl:w-72 flex items-center gap-4 z-20">
+                <div className="text-right flex-1">
+                  <h5 className="text-muted text-20 xl:text-24 mb-2">Planning</h5>
+                  <p className="text-14 xl:text-16 text-muted text-opacity-60">
                     Map the project's scope and architecture
                   </p>
                 </div>
-                <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
+                <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm p-4 xl:p-5 h-fit rounded-full flex-shrink-0">
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-planning.svg`}
                     alt="Planning"
-                    width={44}
-                    height={44}
-                    className="w-16 h-16 "
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 xl:w-10 xl:h-10"
                   />
                 </div>
               </div>
-              <div className="absolute lg:top-40 top-36 lg:right-0 -right-20 w-72 flex items-center gap-6">
-                <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm p-6 h-fit rounded-full">
+              
+              {/* Refinement - Top Right */}
+              <div className="absolute top-20 right-4 xl:right-8 w-64 xl:w-72 flex items-center gap-4 z-20">
+                <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm p-4 xl:p-5 h-fit rounded-full flex-shrink-0">
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-refinement.svg`}
                     alt="Refinement"
-                    width={44}
-                    height={44}
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 xl:w-10 xl:h-10"
                   />
                 </div>
-                <div className="text-left">
-                  <h5 className="text-muted text-28 mb-3">Refinement</h5>
-                  <p className="text-18 text-muted text-opacity-60">
+                <div className="text-left flex-1">
+                  <h5 className="text-muted text-20 xl:text-24 mb-2">Refinement</h5>
+                  <p className="text-14 xl:text-16 text-muted text-opacity-60">
                     Refine and improve your solution
                   </p>
                 </div>
               </div>
-              <div className="absolute lg:bottom-48 bottom-36 lg:left-0 -left-20 w-72 flex items-center gap-6">
-                <div className="text-right">
-                  <h5 className="text-muted text-28 mb-3">Prototype</h5>
-                  <p className="text-18 text-muted text-opacity-60">
+              
+              {/* Prototype - Bottom Left */}
+              <div className="absolute bottom-20 left-4 xl:left-8 w-64 xl:w-72 flex items-center gap-4 z-20">
+                <div className="text-right flex-1">
+                  <h5 className="text-muted text-20 xl:text-24 mb-2">Prototype</h5>
+                  <p className="text-14 xl:text-16 text-muted text-opacity-60">
                     Build a working prototype to test your product
                   </p>
                 </div>
-                <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
+                <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm p-4 xl:p-5 h-fit rounded-full flex-shrink-0">
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-prototype.svg`}
                     alt="Prototype"
-                    width={44}
-                    height={44}
-                    className="w-16 h-16 "
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 xl:w-10 xl:h-10"
                   />
                 </div>
               </div>
-              <div className="absolute lg:bottom-48 bottom-36 lg:right-0 -right-20 w-72 flex items-center gap-6">
-                <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
+              
+              {/* Support - Bottom Right */}
+              <div className="absolute bottom-20 right-4 xl:right-8 w-64 xl:w-72 flex items-center gap-4 z-20">
+                <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm p-4 xl:p-5 h-fit rounded-full flex-shrink-0">
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-support.svg`}
                     alt="Scale and support"
-                    width={44}
-                    height={44}
-                    className="w-16 h-16"
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 xl:w-10 xl:h-10"
                   />
                 </div>
-                <div className="text-left">
-                  <h5 className="text-muted text-nowrap text-28 mb-3">
+                <div className="text-left flex-1">
+                  <h5 className="text-muted text-nowrap text-20 xl:text-24 mb-2">
                     Support
                   </h5>
-                  <p className="text-18 text-muted text-opacity-60">
+                  <p className="text-14 xl:text-16 text-muted text-opacity-60">
                     Deploy the product and ensure full support by us
                   </p>
                 </div>
