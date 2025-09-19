@@ -17,7 +17,7 @@ const Upgrade = () => {
               We bring together a talented team of University of Moratuwa alumni
               with expertise in cutting-edge technologies and proven industry experience.
             </p>
-            <div className="grid sm:grid-cols-2 lg:w-70% text-nowrap sm:gap-10 gap-5">
+            <div className="grid sm:grid-cols-2 lg:w-70% sm:gap-10 gap-5">
               {upgradeData.map((item, index) => (
                 <div key={index} className="flex gap-5">
                   <div>

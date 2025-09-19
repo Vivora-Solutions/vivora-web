@@ -15,30 +15,51 @@ const Footer: FC = () => {
           <div className="col-span-1">
             <Logo />
             <div className="flex gap-6 items-center mt-8">
-              <Link href="#" className="group">
+              <a 
+                href="https://www.facebook.com/profile.php?id=61579227657330&mibextid=ZbWKwL" 
+                className="block p-2 cursor-pointer hover:bg-gray-800 rounded transition-all duration-300" 
+                style={{ pointerEvents: 'auto' }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <Icon
                   icon="fa6-brands:facebook-f"
                   width="24"
                   height="24"
-                  className="text-white group-hover:text-primary"
+                  className="text-white hover:text-primary transition-colors duration-300"
+                  style={{ pointerEvents: 'none' }}
                 />
-              </Link>
-              <Link href="#" className="group">
+              </a>
+              <a 
+                href="https://www.instagram.com/vivora_lk?igsh=MWpxZ3dpdDkxeWpiMA==" 
+                className="block p-2 cursor-pointer hover:bg-gray-800 rounded transition-all duration-300" 
+                style={{ pointerEvents: 'auto' }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <Icon
                   icon="fa6-brands:instagram"
                   width="24"
                   height="24"
-                  className="text-white group-hover:text-primary"
+                  className="text-white hover:text-primary transition-colors duration-300"
+                  style={{ pointerEvents: 'none' }}
                 />
-              </Link>
-              <Link href="#" className="group">
+              </a>
+              <a 
+                href="https://www.tiktok.com/@vivora_lk?_t=ZT-8zqx1Wg7p8g&_r=1" 
+                className="block p-2 cursor-pointer hover:bg-gray-800 rounded transition-all duration-300" 
+                style={{ pointerEvents: 'auto' }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <Icon
-                  icon="fa6-brands:x-twitter"
+                  icon="fa6-brands:tiktok"
                   width="24"
                   height="24"
-                  className="text-white group-hover:text-primary"
+                  className="text-white hover:text-primary transition-colors duration-300"
+                  style={{ pointerEvents: 'none' }}
                 />
-              </Link>
+              </a>
             </div>
            
   
@@ -70,13 +91,13 @@ const Footer: FC = () => {
             </p>
             <div className="mt-6">
               <p className="text-white text-17 mb-3">
-                📧 contact@salondora.com
+                📧 contact@salondora.com <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vivorasolutions@gmail.com
               </p>
               <p className="text-white text-17 mb-3">
-                📱 +94 70 244 3978
+                📱 +94 70 244 3978 <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +94 77 683 2913 <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +94 76 678 7578
               </p>
               <p className="text-white text-17">
-                🏢 No 251/A, Molpe Road, Katubedda, Moratuwa, Sri Lanka
+                🏢 No 415/92 A, 5th lane, Gemunu Pedesa, Nawamalkaduwawa, Kurunegala
               </p>
             </div>
           </div>
