@@ -8,11 +8,11 @@ import Logo from "../Header/Logo";
 
 const Footer: FC = () => {
   return (
-    <footer className="pt-16 bg-darkmode">
+    <footer className="pt-16 bg-darkmode relative z-10">
       <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-16">
           {/* Column 1 - Company Info */}
-          <div className="col-span-1">
+          <div className="col-span-1 relative z-10">
             <Logo />
             <div className="flex gap-6 items-center mt-8">
               <a 
