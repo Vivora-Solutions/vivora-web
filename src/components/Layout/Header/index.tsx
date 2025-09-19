@@ -141,7 +141,7 @@ const Header: React.FC = () => {
 
 
                   <Link
-              href="/team"
+              href="#contact"
               className="hidden lg:block bg-primary text-darkmode hover:bg-transparent hover:text-primary border border-primary px-4 py-2 rounded-lg"
             
             >
